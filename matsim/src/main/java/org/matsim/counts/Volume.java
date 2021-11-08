@@ -41,7 +41,7 @@ public final class Volume extends Measurement.Record {
 	}
 
 	public final int getHourOfDayStartingWithOne() {
-		return (int) (getValue() / 3600);
+		return (int) (getFrom() / 3600);
 	}
 
 	@Override

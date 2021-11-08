@@ -59,7 +59,7 @@ public final class Count<T> extends Measurement<T> implements Identifiable<T> {
 		if (exists != null)
 			throw new IllegalArgumentException("There is already an record for this range: " + exists);
 
-		Volume v = new Volume(h * 3600, val);
+		Volume v = new Volume(h, val);
 		records.add(v);
 		return v;
 	}
