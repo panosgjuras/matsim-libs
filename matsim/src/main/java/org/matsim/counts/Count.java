@@ -21,23 +21,23 @@
 package org.matsim.counts;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.matsim.api.core.v01.Coord;
 import org.matsim.api.core.v01.Id;
 import org.matsim.api.core.v01.Identifiable;
 
-public class Count<T> implements Identifiable<T> {
+/**
+ * Class holding counts data.
+ *
+ * Should be deprecated and is now built on top newer measurement API.
+ * @param <T>
+ */
+public final class Count<T> extends Measurement<T> implements Identifiable<T> {
 
-	private final Id<T> linkId;
-	private String stationName;
-
-	private final HashMap<Integer,Volume> volumes = new HashMap<>();
-	private Coord coord;
-
-
-	protected Count(final Id<T> linkId2, final String stationName) {
-		this.linkId = linkId2;
-		this.stationName = stationName;
+	Count(final Id<T> linkId2, final String stationName) {
+		super(linkId2, Observation.COUNT, stationName);
 	}
 
 	/**
@@ -54,40 +54,53 @@ public class Count<T> implements Identifiable<T> {
 			throw new RuntimeException( "counts start at 1, not at 0.  If you have a use case where you need to go below one, "
 					+ "let us know and we think about it, but so far we had numerous debugging sessions because someone inserted counts at 0.") ;
 		}
-		// overkill?
-		Volume v = new Volume(h,val);
-		this.volumes.put(Integer.valueOf(h), v);
+
+		Record exists = getRecord(h * 3600);
+		if (exists != null)
+			throw new IllegalArgumentException("There is already an record for this range: " + exists);
+
+		Volume v = new Volume(h * 3600, val);
+		records.add(v);
 		return v;
 	}
 
-	public final void setCsId(final String cs_id) {
-		this.stationName = cs_id;
+	@Override
+	public Measurement<T> put(double from, double to, double value) {
+		Record exists = getRecord(from);
+		if (exists != null)
+			throw new IllegalArgumentException("There is already an record for this range: " + exists);
+
+		if ((to - from) != 3600)
+			throw new IllegalArgumentException("From and to must span exactly one hour when using counts.");
+
+		records.add(new Volume((int) (from / 3600), value));
+		return this;
 	}
 
-	@Override
-	public final Id<T> getId() {
-		return this.linkId;
+	public final void setCsId(final String cs_id) {
+		this.station = cs_id;
 	}
+
 
 	public final String getCsLabel() {
-		return this.stationName;
+		return getStation();
 	}
 
 	public final Volume getMaxVolume() {
 		Volume v_max = null;
 		double max = -1.0;
-		for (Volume v : this.volumes.values()) {
-			if (v.getValue() > max) { max = v.getValue(); v_max = v; }
+		for (Record v : this.records) {
+			if (v.getValue() > max) { max = v.getValue(); v_max = (Volume) v; }
 		}
 		return v_max;
 	}
 
 	public final Volume getVolume(final int h) {
-		return this.volumes.get(Integer.valueOf(h));
+		return (Volume) getRecord(h * 3600);
 	}
 
-	public final HashMap<Integer,Volume> getVolumes() {
-		return this.volumes;
+	public final Map<Integer, Volume> getVolumes() {
+		return records.stream().collect(Collectors.toMap(r -> (int) (r.getFrom() / 3600), r -> (Volume) r));
 	}
 
 	public void setCoord(final Coord coord) {
@@ -103,9 +116,9 @@ public class Count<T> implements Identifiable<T> {
 
 	@Override
 	public final String toString() {
-		return "[Loc_id=" + this.linkId + "]" +
-		"[cs_id=" + this.stationName + "]" +
-		"[nof_volumes=" + this.volumes.size() + "]";
+		return "[Loc_id=" + this.getId() + "]" +
+		"[cs_id=" + this.getStation() + "]" +
+		"[nof_volumes=" + this.size() + "]";
 	}
 
 }

@@ -21,11 +21,12 @@
 package org.matsim.counts;
 // import org.matsim.demandmodeling.gbl.Gbl;
 
-public class Volume {
-	private final int h_;
-	private double val_;
+/**
+ * Data record for one volume observation.
+ */
+public final class Volume extends Measurement.Record {
 
-	protected Volume(final int h, final double val) {
+	Volume(final int h, final double val) {
 		
 		/* no error checking needed as we use schema instead of dtd
 		
@@ -36,24 +37,15 @@ public class Volume {
 			Gbl.errorMsg("[val="+val+", negative values are not allowed!]");
 		}
 		*/
-		
-		this.h_ = h;
-		this.val_ = val;	
-	}
-
-	public final void setValue(double val) {
-		this.val_ = val;
+		super(h * 3600, (h+1) * 3600, val);
 	}
 
 	public final int getHourOfDayStartingWithOne() {
-		return this.h_;
+		return (int) (getValue() / 3600);
 	}
-	public final double getValue() {
-		return this.val_;
-	}
-	
+
 	@Override
 	public final String toString() {
-		return "[" + this.h_ + "===" + this.val_ + "]";
+		return "[" + this.getHourOfDayStartingWithOne() + "===" + this.getValue() + "]";
 	}
 }

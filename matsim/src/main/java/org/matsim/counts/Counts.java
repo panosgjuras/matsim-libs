@@ -31,7 +31,13 @@ public class Counts<T> {
 	private String name = null;
 	private String desc = null;
 	private int year = 0;
+
 	private final TreeMap<Id<T>, Count<T>> counts = new TreeMap<>();
+
+	/**
+	 * Map measurements from id to their data.
+	 */
+	private final TreeMap<Id<T>, Measurement<T>> measurements = new TreeMap<>();
 
 	/**
 	 * @param linkId the link to which the counting station is assigned, must be unique
@@ -46,6 +52,14 @@ public class Counts<T> {
 		Count<T> c = new Count<>(linkId, stationName);
 		this.counts.put(linkId, c);
 		return c;
+	}
+
+	public final Measurement<T> createOrGetMeasurement(Id<T> id, Observation observation, String station) {
+		// TODO: needs to be stored
+
+		// TODO: store observation type
+
+		return new Measurement<>(id, observation, station);
 	}
 
 	public final void setName(final String name) {
@@ -78,6 +92,11 @@ public class Counts<T> {
 
 	public final Count<T> getCount(final Id<T> locId) {
 		return this.counts.get(locId);
+	}
+
+	public Measurement<T> getMeasurements(Id<T> id, Observation observation) {
+		// TODO: obsservation
+		return measurements.get(id);
 	}
 
 	@Override

@@ -20,13 +20,13 @@
 
 package org.matsim.counts;
 
-import java.util.Stack;
-
 import org.apache.log4j.Logger;
 import org.matsim.core.utils.geometry.CoordinateTransformation;
 import org.matsim.core.utils.geometry.transformations.IdentityTransformation;
 import org.matsim.core.utils.io.MatsimXmlParser;
 import org.xml.sax.Attributes;
+
+import java.util.Stack;
 
 /**
  * A reader for counts-files of MATSim. This reader recognizes the format of the counts-file and uses
@@ -38,6 +38,7 @@ public class MatsimCountsReader extends MatsimXmlParser {
 
 	private final static Logger log = Logger.getLogger(MatsimCountsReader.class);
 	private final static String COUNTS_V1 = "counts_v1.xsd";
+	private final static String COUNTS_V2 = "counts_v2.xsd";
 
 	private final Counts counts;
 	private MatsimXmlParser delegate = null;
@@ -50,14 +51,14 @@ public class MatsimCountsReader extends MatsimXmlParser {
 	 * @param counts The Counts-object to store the configuration settings in.
 	 */
 	public MatsimCountsReader(final Counts counts) {
-		this( new IdentityTransformation() , counts );
+		this(new IdentityTransformation(), counts);
 	}
 
 	/**
 	 * Creates a new reader for MATSim counts files.
 	 *
 	 * @param coordinateTransformation transformation from the CRS of the file to the internal CRS for MATSim
-	 * @param counts The Counts-object to store the configuration settings in.
+	 * @param counts                   The Counts-object to store the configuration settings in.
 	 */
 	public MatsimCountsReader(
 			final CoordinateTransformation coordinateTransformation,
@@ -81,8 +82,11 @@ public class MatsimCountsReader extends MatsimXmlParser {
 		super.setDoctype(doctype);
 		// Currently the only counts-type is v1
 		if (COUNTS_V1.equals(doctype)) {
-			this.delegate = new CountsReaderMatsimV1( coordinateTransformation , this.counts);
+			this.delegate = new CountsReaderMatsimV1(coordinateTransformation, this.counts);
 			log.info("using counts_v1-reader.");
+		} else if (COUNTS_V2.equals(doctype)) {
+			this.delegate = new CountsReaderMatsimV2(coordinateTransformation, this.counts);
+			log.info("using counts_v2-reader.");
 		} else {
 			throw new IllegalArgumentException("Doctype \"" + doctype + "\" not known.");
 		}
