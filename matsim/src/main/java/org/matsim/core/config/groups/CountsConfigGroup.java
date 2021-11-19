@@ -46,6 +46,7 @@ public final class CountsConfigGroup extends ReflectiveConfigGroup {
 	private static final String ANALYZEDMODES = "analyzedModes";
 	private static final String FILTERMODES = "filterModes";
 	private static final String INPUT_CRS = "inputCRS";
+	private static final String DTD_VERSION = "dtdVersion";
 	
 	private String outputFormat = "txt";
 
@@ -74,6 +75,7 @@ public final class CountsConfigGroup extends ReflectiveConfigGroup {
 	private String analyzedModes = TransportMode.car;
 	private boolean filterModes = false;
 	private String inputCRS = null;
+	private CountsDTD version = CountsDTD.v2;
 
 	public CountsConfigGroup() {
 		super(GROUP_NAME);
@@ -107,6 +109,9 @@ public final class CountsConfigGroup extends ReflectiveConfigGroup {
 		comments.put( INPUT_CRS , "The Coordinates Reference System in which the coordinates are expressed in the input file." +
 				" At import, the coordinates will be converted to the coordinate system defined in \"global\", and will" +
 				"be converted back at export. If not specified, no conversion happens." );
+
+		comments.put(DTD_VERSION, "Version of xml output format to write");
+
 		return comments;
 	}
 
@@ -218,6 +223,21 @@ public final class CountsConfigGroup extends ReflectiveConfigGroup {
 	@StringSetter( INPUT_CRS )
 	public void setInputCRS(String inputCRS) {
 		this.inputCRS = inputCRS;
+	}
+
+	@StringGetter(DTD_VERSION)
+	public CountsDTD getVersion() {
+		return version;
+	}
+
+	@StringSetter(DTD_VERSION)
+	public void setVersion(CountsDTD version) {
+		this.version = version;
+	}
+
+	public enum CountsDTD {
+		v1,
+		v2;
 	}
 
 }

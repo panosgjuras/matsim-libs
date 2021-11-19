@@ -21,6 +21,7 @@
 package org.matsim.counts;
 
 import org.matsim.core.api.internal.MatsimWriter;
+import org.matsim.core.config.groups.CountsConfigGroup;
 import org.matsim.core.utils.geometry.CoordinateTransformation;
 import org.matsim.core.utils.geometry.transformations.IdentityTransformation;
 import org.matsim.core.utils.io.MatsimXmlWriter;
@@ -37,6 +38,7 @@ public class CountsWriter extends MatsimXmlWriter implements MatsimWriter {
 
 	private final CountsWriterHandler handler;
 	private final Counts counts;
+	private final CountsConfigGroup.CountsDTD dtd;
 
 	public CountsWriter(final Counts counts) {
 		this( new IdentityTransformation() , counts );
@@ -45,9 +47,15 @@ public class CountsWriter extends MatsimXmlWriter implements MatsimWriter {
 	public CountsWriter(
 			final CoordinateTransformation coordinateTransformation,
 			final Counts counts) {
-		this.counts = counts;
+		this(coordinateTransformation, counts, CountsConfigGroup.CountsDTD.v1);
+	}
 
-		// use the newest writer-version by default
+	public CountsWriter(final CoordinateTransformation coordinateTransformation, Counts counts, CountsConfigGroup.CountsDTD dtd) {
+		this.counts = counts;
+		this.dtd = dtd;
+
+		// TODO: choose based on version
+
 		this.handler = new CountsWriterHandlerImplV1(coordinateTransformation);
 	}
 

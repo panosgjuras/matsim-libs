@@ -39,6 +39,7 @@ import org.matsim.core.network.NetworkUtils;
 import org.matsim.core.network.io.NetworkChangeEventsWriter;
 import org.matsim.core.network.io.NetworkWriter;
 import org.matsim.core.utils.geometry.CoordinateTransformation;
+import org.matsim.core.utils.geometry.transformations.IdentityTransformation;
 import org.matsim.core.utils.geometry.transformations.TransformationFactory;
 import org.matsim.core.utils.io.UncheckedIOException;
 import org.matsim.counts.Counts;
@@ -228,7 +229,7 @@ final class DumpDataAtEndImpl implements DumpDataAtEnd, ShutdownListener {
 				final String internalCRS = this.config.global().getCoordinateSystem();
 
 				if ( inputCRS == null ) {
-					new CountsWriter(this.counts).write(this.controlerIO.getOutputFilename(Controler.DefaultFiles.counts));
+					new CountsWriter(new IdentityTransformation(), this.counts, this.config.counts().getVersion()).write(this.controlerIO.getOutputFilename(Controler.DefaultFiles.counts));
 				}
 				else {
 					log.info( "re-projecting counts from "+internalCRS+" back to "+inputCRS+" for export" );
@@ -238,7 +239,7 @@ final class DumpDataAtEndImpl implements DumpDataAtEnd, ShutdownListener {
 									internalCRS,
 									inputCRS );
 
-					new CountsWriter( transformation , this.counts).write(this.controlerIO.getOutputFilename(Controler.DefaultFiles.counts));
+					new CountsWriter( transformation , this.counts, this.config.counts().getVersion()).write(this.controlerIO.getOutputFilename(Controler.DefaultFiles.counts));
 				}
 			}
 		} catch ( Exception ee ) {

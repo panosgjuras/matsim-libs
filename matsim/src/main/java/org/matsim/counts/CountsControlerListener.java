@@ -162,7 +162,7 @@ class CountsControlerListener implements StartupListener, IterationEndsListener 
 						}
 						simCounts.getCount(countSimComparison.getId()).createVolume(countSimComparison.getHour(), countSimComparison.getSimulationValue());
 					}
-                    CountsWriter countsWriter = new CountsWriter(TransformationFactory.getCoordinateTransformation(globalConfigGroup.getCoordinateSystem(), TransformationFactory.WGS84), simCounts);
+                    CountsWriter countsWriter = new CountsWriter(TransformationFactory.getCoordinateTransformation(globalConfigGroup.getCoordinateSystem(), TransformationFactory.WGS84), simCounts, this.config.getVersion());
                     countsWriter.write(filename);
                 }
                 reset();
