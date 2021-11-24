@@ -203,7 +203,7 @@ public class EventAttributesTest {
 		new MatsimEventsReader(events).readFile(inputFile);
 		events.finishProcessing();
 
-		assertEquals("there must be 3 evente.", 3, collector.getEvents().size());
+		assertEquals("there must be 3 events.", 3, collector.getEvents().size());
 		Event readEvent = collector.getEvents().iterator().next();
 
 		//write out
@@ -217,6 +217,7 @@ public class EventAttributesTest {
 
 		//compare
 		assertTrue(EventsFileComparator.compare(inputFile, outputFile) == EventsFileComparator.Result.FILES_ARE_EQUAL);
+		//TODO: The above one is passing. The below one failing...
 		MatsimTestUtils.compareFilesLineByLine(inputFile, outputFile);
 	}
 
