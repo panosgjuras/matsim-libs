@@ -1,0 +1,2638 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v2.dtd">
+<network>
+  <nodes>
+    <node id="0" x="475365.932" y="4203053.234" z="0.0"/>
+    <node id="1" x="474972.776" y="4203070.751" z="0.0"/>
+    <node id="2" x="474672.152" y="4202909.612" z="0.0"/>
+    <node id="3" x="475212.822" y="4202852.114" z="0.0"/>
+    <node id="4" x="475467.627" y="4202260.759" z="0.0"/>
+    <node id="5" x="476285.729" y="4202193.286" z="0.0"/>
+    <node id="6" x="476294.812" y="4202262.705" z="0.0"/>
+    <node id="7" x="476396.588" y="4202325.393" z="0.0"/>
+    <node id="8" x="476142.269" y="4202348.748" z="0.0"/>
+    <node id="9" x="475892.086" y="4202657.807" z="0.0"/>
+    <node id="10" x="475908.306" y="4202718.792" z="0.0"/>
+    <node id="11" x="475880.084" y="4202733.389" z="0.0"/>
+    <node id="12" x="475915.767" y="4202913.423" z="0.0"/>
+    <node id="13" x="475923.876" y="4202955.594" z="0.0"/>
+    <node id="14" x="475956.315" y="4203105.136" z="0.0"/>
+    <node id="15" x="476463.655" y="4203064.263" z="0.0"/>
+    <node id="16" x="476563.647" y="4203128.573" z="0.0"/>
+    <node id="17" x="476660.233" y="4203191.422" z="0.0"/>
+    <node id="18" x="476749.844" y="4203055.18" z="0.0"/>
+    <node id="19" x="476650.582" y="4202917.722" z="0.0"/>
+    <node id="20" x="476735.409" y="4202905.638" z="0.0"/>
+    <node id="21" x="476623.253" y="4202773.613" z="0.0"/>
+    <node id="22" x="477064.499" y="4202851.547" z="0.0"/>
+    <node id="23" x="476983.402" y="4202254.677" z="0.0"/>
+    <node id="24" x="477005.136" y="4202218.994" z="0.0"/>
+    <node id="25" x="477034.98" y="4202163.2" z="0.0"/>
+    <node id="26" x="477136.188" y="4202313.715" z="0.0"/>
+    <node id="27" x="476853.323" y="4202117.786" z="0.0"/>
+    <node id="28" x="477368.448" y="4202020.47" z="0.0"/>
+    <node id="29" x="476889.655" y="4201711.654" z="0.0"/>
+    <node id="30" x="477156.949" y="4201421.004" z="0.0"/>
+    <node id="31" x="476284.594" y="4202058.666" z="0.0"/>
+    <node id="32" x="475486.685" y="4201278.923" z="0.0"/>
+    <node id="33" x="476189.954" y="4200913.665" z="0.0"/>
+    <node id="34" x="476771.254" y="4201152.413" z="0.0"/>
+    <node id="35" x="475691.697" y="4200633.395" z="0.0"/>
+    <node id="36" x="474793.796" y="4201432.034" z="0.0"/>
+    <node id="37" x="474443.459" y="4201338.61" z="0.0"/>
+    <node id="38" x="473675.962" y="4200679.782" z="0.0"/>
+    <node id="39" x="473244.529" y="4200320.038" z="0.0"/>
+    <node id="40" x="472979.83" y="4200192.879" z="0.0"/>
+    <node id="41" x="472374.525" y="4199611.579" z="0.0"/>
+    <node id="42" x="472123.775" y="4199757.877" z="0.0"/>
+    <node id="43" x="472497.468" y="4200389.132" z="0.0"/>
+    <node id="44" x="472837.424" y="4200744.659" z="0.0"/>
+    <node id="45" x="473148.835" y="4200967.837" z="0.0"/>
+    <node id="46" x="473320.111" y="4201082.021" z="0.0"/>
+    <node id="47" x="473347.359" y="4201055.421" z="0.0"/>
+    <node id="48" x="473110.395" y="4199145.923" z="0.0"/>
+    <node id="49" x="472728.917" y="4198794.288" z="0.0"/>
+    <node id="50" x="473048.113" y="4198877.331" z="0.0"/>
+    <node id="51" x="473468.193" y="4199274.704" z="0.0"/>
+    <node id="52" x="473439.322" y="4199310.062" z="0.0"/>
+    <node id="53" x="473818.043" y="4199613.201" z="0.0"/>
+    <node id="54" x="473801.175" y="4199629.42" z="0.0"/>
+    <node id="55" x="473784.307" y="4199643.044" z="0.0"/>
+    <node id="56" x="474245.584" y="4200032.632" z="0.0"/>
+    <node id="57" x="474312.408" y="4199965.809" z="0.0"/>
+    <node id="58" x="474228.716" y="4200051.447" z="0.0"/>
+    <node id="59" x="474213.794" y="4200067.017" z="0.0"/>
+    <node id="60" x="473881.785" y="4199548.81" z="0.0"/>
+    <node id="61" x="475221.986" y="4200990.22" z="0.0"/>
+    <node id="62" x="475201.712" y="4201003.52" z="0.0"/>
+    <node id="63" x="475187.277" y="4201016.495" z="0.0"/>
+    <node id="64" x="475392.613" y="4200961.025" z="0.0"/>
+    <node id="65" x="475221.337" y="4200861.114" z="0.0"/>
+    <node id="66" x="475286.214" y="4201081.697" z="0.0"/>
+    <node id="67" x="473835.236" y="4201366.832" z="0.0"/>
+    <node id="68" x="474092.149" y="4201715.871" z="0.0"/>
+    <node id="69" x="474197.25" y="4201858.601" z="0.0"/>
+    <node id="70" x="473161.324" y="4199040.497" z="0.0"/>
+    <node id="71" x="476435.92" y="4201918.288" z="0.0"/>
+    <node id="72" x="472203.331" y="4199308.602" z="0.0"/>
+    <node id="73" x="472682.124" y="4198990.055" z="0.0"/>
+    <node id="74" x="476524.477" y="4202924.534" z="0.0"/>
+    <node id="75" x="476478.414" y="4202452.876" z="0.0"/>
+    <node id="76" x="476492.687" y="4202794.13" z="0.0"/>
+    <node id="77" x="475204.794" y="4203366.591" z="0.0"/>
+    <node id="78" x="473459.597" y="4202111.217" z="0.0"/>
+    <node id="79" x="473776.197" y="4201849.113" z="0.0"/>
+    <node id="80" x="474216.065" y="4201513.049" z="0.0"/>
+    <node id="81" x="474411.994" y="4201519.537" z="0.0"/>
+    <node id="82" x="475463.433" y="4203219.364" z="0.0"/>
+    <node id="83" x="474972.375" y="4203245.63" z="0.0"/>
+    <node id="84" x="475325.251" y="4203438.627" z="0.0"/>
+    <node id="85" x="475244.17" y="4203581.377" z="0.0"/>
+    <node id="86" x="474821.774" y="4203347.981" z="0.0"/>
+    <node id="87" x="474804.644" y="4203305.156" z="0.0"/>
+    <node id="88" x="475172.367" y="4200936.658" z="0.0"/>
+    <node id="89" x="476127.646" y="4202176.865" z="0.0"/>
+    <node id="90" x="476063.694" y="4201975.874" z="0.0"/>
+    <node id="91" x="476164.19" y="4201938.188" z="0.0"/>
+    <node id="92" x="475107.273" y="4201305.523" z="0.0"/>
+    <node id="93" x="475170.083" y="4201266.695" z="0.0"/>
+    <node id="94" x="475187.784" y="4201364.907" z="0.0"/>
+    <node id="95" x="475235.747" y="4201321.511" z="0.0"/>
+    <node id="96" x="475134.538" y="4201192.822" z="0.0"/>
+    <node id="97" x="475070.872" y="4201129.727" z="0.0"/>
+    <node id="98" x="476056.064" y="4202592.93" z="0.0"/>
+    <node id="99" x="473279.238" y="4201218.506" z="0.0"/>
+  </nodes>
+  <links capperiod="01:00:00">
+    <link id="10000" from="24" to="26" length="161.763" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10001" from="24" to="27" length="182.528" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10002" from="24" to="25" length="63.299" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10003" from="27" to="7" length="503.804" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10004" from="26" to="28" length="374.23" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10005" from="28" to="29" length="569.97" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10006" from="29" to="30" length="409.695" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10007" from="7" to="6" length="120.322" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10008" from="6" to="8" length="175.205" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10009" from="6" to="5" length="70.038" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10010" from="89" to="4" length="670.448" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10011" from="8" to="98" length="271.583" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10012" from="98" to="9" length="176.549" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10013" from="9" to="10" length="63.365" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10014" from="10" to="11" length="32.064" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10015" from="11" to="12" length="183.608" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10016" from="4" to="3" length="673.721" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10017" from="3" to="1" length="270.9" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10018" from="75" to="21" length="360.117" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10019" from="76" to="12" length="591.431" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10020" from="12" to="13" length="42.96" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10021" from="5" to="31" length="134.678" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10022" from="91" to="32" length="945.698" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10023" from="1" to="1" length="393.7" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">5</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10024" from="1" to="13" length="566.646" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10025" from="13" to="14" length="153.08" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10026" from="14" to="15" length="518.762" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10027" from="17" to="18" length="163.135" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10028" from="18" to="20" length="152.196" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10029" from="20" to="22" length="333.637" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10030" from="15" to="16" length="118.934" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10031" from="16" to="17" length="115.28" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10032" from="21" to="19" length="146.735" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10033" from="19" to="20" length="85.717" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10034" from="19" to="16" length="236.927" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10035" from="22" to="23" length="602.592" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10036" from="23" to="24" length="41.797" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10037" from="30" to="34" length="470.187" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10038" from="34" to="33" length="634.147" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10039" from="33" to="35" length="574.431" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10040" from="35" to="64" length="443.787" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10041" from="64" to="65" length="201.467" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10042" from="65" to="57" length="1276.324" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10043" from="64" to="66" length="160.943" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10044" from="32" to="66" length="281.334" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10045" from="92" to="36" length="338.253" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10046" from="36" to="37" length="362.722" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10047" from="37" to="38" length="1011.884" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10048" from="57" to="56" length="94.54" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10049" from="56" to="58" length="25.279" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10050" from="58" to="59" length="21.575" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10051" from="59" to="38" length="815.638" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10052" from="63" to="59" length="1360.378" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10053" from="56" to="88" length="1295.185" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10054" from="61" to="62" length="24.257" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10055" from="63" to="62" length="19.417" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10056" from="66" to="62" length="115.164" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10057" from="62" to="58" length="1361.844" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10058" from="58" to="54" length="600.983" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10059" from="59" to="55" length="603.736" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10060" from="53" to="56" length="600.009" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10061" from="52" to="51" length="45.665" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10062" from="52" to="70" length="387.383" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10063" from="70" to="48" length="117.128" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10064" from="54" to="50" length="1064.819" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10065" from="50" to="49" length="400.645" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10066" from="48" to="49" length="519.021" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10067" from="57" to="60" length="599.671" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10068" from="60" to="53" length="90.64" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10069" from="53" to="54" length="23.41" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10070" from="54" to="55" length="21.691" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10071" from="51" to="53" length="486.992" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10072" from="55" to="52" length="479.658" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10073" from="38" to="39" length="561.959" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10074" from="39" to="40" length="293.773" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10075" from="40" to="41" length="839.556" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10076" from="48" to="41" length="880.767" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10077" from="38" to="47" length="499.279" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10078" from="47" to="67" length="579.019" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10079" from="67" to="68" length="444.363" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10080" from="68" to="69" length="177.321" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10081" from="69" to="2" length="1153.776" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10082" from="2" to="1" length="344.672" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10083" from="41" to="42" length="292.903" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">5</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10084" from="42" to="43" length="735.89" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10085" from="43" to="44" length="492.097" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10086" from="44" to="45" length="383.275" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10087" from="45" to="46" length="205.928" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10088" from="46" to="47" length="38.094" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10089" from="32" to="71" length="1198.863" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10090" from="31" to="71" length="210.716" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10091" from="71" to="27" length="479.838" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10092" from="41" to="72" length="349.263" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10093" from="72" to="73" length="575.949" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10094" from="73" to="49" length="270.224" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10095" from="19" to="74" length="129.434" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10096" from="15" to="74" length="158.866" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10097" from="74" to="76" length="141.371" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10098" from="76" to="75" length="364.801" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10099" from="76" to="21" length="132.22" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10100" from="7" to="75" length="151.544" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10101" from="83" to="78" length="1896.558" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10102" from="78" to="79" length="411.177" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10103" from="47" to="99" length="176.81" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10104" from="99" to="79" length="805.884" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10105" from="79" to="80" length="553.771" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10106" from="80" to="81" length="196.113" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10107" from="81" to="37" length="183.714" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10108" from="77" to="1" length="352.499" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10109" from="1" to="82" length="207.256" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10110" from="82" to="84" length="259.274" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10111" from="83" to="77" length="262.114" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10112" from="84" to="85" length="164.234" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10113" from="85" to="86" length="482.778" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10114" from="86" to="87" length="46.142" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10115" from="87" to="83" length="178.05" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10116" from="77" to="84" length="140.409" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10117" from="65" to="88" length="90.063" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10118" from="88" to="61" length="73.042" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10119" from="89" to="90" length="211.003" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10120" from="89" to="5" length="158.996" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10121" from="91" to="90" length="107.372" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10122" from="91" to="31" length="170.396" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10123" from="90" to="94" length="1070.465" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10124" from="95" to="90" length="1063.887" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10125" from="94" to="92" length="100.081" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10126" from="92" to="93" length="73.871" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10127" from="93" to="95" length="85.571" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10128" from="93" to="32" length="324.553" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10129" from="94" to="95" length="64.707" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10130" from="95" to="96" length="204.664" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10131" from="96" to="97" length="89.67" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10132" from="97" to="63" length="162.457" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10133" from="7" to="6" length="121.665" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10134" from="24" to="75" length="576.54" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10135" from="75" to="21" length="381.705" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10136" from="21" to="76" length="136.375" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10137" from="24" to="27" length="200.515" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10138" from="24" to="26" length="177.423" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10139" from="8" to="89" length="173.673" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10140" from="6" to="5" length="77.337" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10141" from="7" to="75" length="161.154" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="1014" from="20" to="22" length="337.622" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="10143" from="21" to="20" length="205.028" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100000" from="26" to="24" length="161.763" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100001" from="27" to="24" length="182.528" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100002" from="25" to="24" length="63.299" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100003" from="7" to="27" length="503.804" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100004" from="28" to="26" length="374.23" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100005" from="29" to="28" length="569.97" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100006" from="30" to="29" length="409.695" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100007" from="6" to="7" length="120.322" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100008" from="8" to="6" length="175.205" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100009" from="5" to="6" length="70.038" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100010" from="4" to="89" length="670.448" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100011" from="98" to="8" length="271.583" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100012" from="9" to="98" length="176.549" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100013" from="10" to="9" length="63.365" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100014" from="11" to="10" length="32.064" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100015" from="12" to="11" length="183.608" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100016" from="3" to="4" length="673.721" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100017" from="1" to="3" length="270.9" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100021" from="31" to="5" length="134.678" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100022" from="32" to="91" length="945.698" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100023" from="1" to="1" length="393.7" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">5</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100024" from="13" to="1" length="566.646" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100027" from="18" to="17" length="163.135" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100028" from="20" to="18" length="152.196" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100029" from="22" to="20" length="333.637" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100033" from="20" to="19" length="85.717" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100037" from="34" to="30" length="470.187" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100038" from="33" to="34" length="634.147" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100039" from="35" to="33" length="574.431" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100040" from="64" to="35" length="443.787" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100041" from="65" to="64" length="201.467" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100042" from="57" to="65" length="1276.324" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100043" from="66" to="64" length="160.943" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100044" from="66" to="32" length="281.334" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100045" from="36" to="92" length="338.253" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100046" from="37" to="36" length="362.722" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100047" from="38" to="37" length="1011.884" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100048" from="56" to="57" length="94.54" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100049" from="58" to="56" length="25.279" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100050" from="59" to="58" length="21.575" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100051" from="38" to="59" length="815.638" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100054" from="62" to="61" length="24.257" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100055" from="62" to="63" length="19.417" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100056" from="62" to="66" length="115.164" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100057" from="58" to="62" length="1361.844" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100058" from="54" to="58" length="600.983" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100061" from="51" to="52" length="45.665" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100062" from="70" to="52" length="387.383" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100063" from="48" to="70" length="117.128" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100064" from="50" to="54" length="1064.819" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100065" from="49" to="50" length="400.645" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100066" from="49" to="48" length="519.021" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100067" from="60" to="57" length="599.671" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100068" from="53" to="60" length="90.64" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100069" from="54" to="53" length="23.41" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100070" from="55" to="54" length="21.691" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100073" from="39" to="38" length="561.959" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100074" from="40" to="39" length="293.773" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100075" from="41" to="40" length="839.556" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100076" from="41" to="48" length="880.767" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100077" from="47" to="38" length="499.279" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="no" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100078" from="67" to="47" length="579.019" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100079" from="68" to="67" length="444.363" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100080" from="69" to="68" length="177.321" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100081" from="2" to="69" length="1153.776" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100082" from="1" to="2" length="344.672" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100083" from="42" to="41" length="292.903" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">5</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100084" from="43" to="42" length="735.89" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100085" from="44" to="43" length="492.097" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100086" from="45" to="44" length="383.275" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100087" from="46" to="45" length="205.928" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100088" from="47" to="46" length="38.094" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">6</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100089" from="71" to="32" length="1198.863" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100090" from="71" to="31" length="210.716" capacity="2400.0" freespeed="13.889" permlanes="2" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100091" from="27" to="71" length="479.838" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100092" from="72" to="41" length="349.263" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100093" from="73" to="72" length="575.949" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100094" from="49" to="73" length="270.224" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100100" from="75" to="7" length="151.544" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100101" from="78" to="83" length="1896.558" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100102" from="79" to="78" length="411.177" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100103" from="99" to="47" length="176.81" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100104" from="79" to="99" length="805.884" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100105" from="80" to="79" length="553.771" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100106" from="81" to="80" length="196.113" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100107" from="37" to="81" length="183.714" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100117" from="88" to="65" length="90.063" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle,car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100118" from="61" to="88" length="73.042" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100119" from="90" to="89" length="211.003" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100120" from="5" to="89" length="158.996" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100121" from="90" to="91" length="107.372" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100122" from="31" to="91" length="170.396" capacity="4800.0" freespeed="13.889" permlanes="4" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100126" from="93" to="92" length="73.871" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100128" from="32" to="93" length="324.553" capacity="3600.0" freespeed="13.889" permlanes="3" oneway="1" modes="car" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100129" from="95" to="94" length="64.707" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100130" from="96" to="95" length="204.664" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100131" from="97" to="96" length="89.67" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100132" from="63" to="97" length="162.457" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100133" from="6" to="7" length="121.665" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100134" from="75" to="24" length="576.54" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100135" from="21" to="75" length="381.705" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100136" from="76" to="21" length="136.375" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100137" from="27" to="24" length="200.515" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100138" from="26" to="24" length="177.423" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100139" from="89" to="8" length="173.673" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100140" from="5" to="6" length="77.337" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">1</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100141" from="75" to="7" length="161.154" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">3</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="91014" from="22" to="20" length="337.622" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+    <link id="100143" from="20" to="21" length="205.028" capacity="1200.0" freespeed="13.889" permlanes="1" oneway="1" modes="bicycle" origid="">
+      <attributes>
+        <attribute name="carpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="ebikepsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="escootpsafe" class="java.lang.Integer">4</attribute>
+        <attribute name="walkpsafe" class="java.lang.Integer">2</attribute>
+        <attribute name="type" class="java.lang.String">primary</attribute>
+        <attribute name="bicycleInfrastructureSpeedFactor" class="java.lang.Double">1.0</attribute>
+      </attributes>
+    </link>
+  </links>
+</network>
