@@ -29,16 +29,14 @@ class BicycleUtilityUtils {
 //		String surface = (String) link.getAttributes().getAttribute(BicycleUtils.SURFACE);
 		String type = (String) link.getAttributes().getAttribute("type");
 //		String cyclewaytype = (String) link.getAttributes().getAttribute(BicycleUtils.CYCLEWAY);
-
 		// SCOOTER //
 		// Below, we retrieve the psafe attribute as integer
 		int psafe = (int)link.getAttributes().getAttribute(BicycleUtils.PERCEIVED_SAFETY);
 		// System.out.println (psafe);
-		
-		double distance = link.getLength(); /* this is our li ( the length of the link i ) */
-		
 		// This is the psafe factor multiplied with the distance of link i
-		double score = psafe * distance;
+		// double score = psafe * distance; 
+		double distance = link.getLength(); /* this is our li ( the length of the link i ) */
+		double score = psafe;
 		// System.out.println (score);
 		return (score);
 		////////////
