@@ -35,6 +35,11 @@ public final class BicycleUtils {
 	public static final String WAY_TYPE = "type";
 	public static final String BICYCLE_INFRASTRUCTURE_SPEED_FACTOR = "bicycleInfrastructureSpeedFactor";
 
+	//SCOOTER//
+	// This is where we call the perceived safety attribute
+//	public static final String PERCEIVED_SAFETY_SCOOTER = "carpsafe";
+	public static final String PERCEIVED_SAFETY = "ebikepsafe";
+	//////////
 	private BicycleUtils() {
 		// Don't allow to create instances of this class
 	}

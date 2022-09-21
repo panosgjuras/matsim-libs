@@ -1,24 +1,4 @@
-/* *********************************************************************** *
- * project: org.matsim.*                                                   *
- * BicycleLegScoring.java                                                  *
- *                                                                         *
- * *********************************************************************** *
- *                                                                         *
- * copyright       : (C) 2007 by the members listed in the COPYING,        *
- *                   LICENSE and WARRANTY file.                            *
- * email           : info at matsim dot org                                *
- *                                                                         *
- * *********************************************************************** *
- *                                                                         *
- *   This program is free software; you can redistribute it and/or modify  *
- *   it under the terms of the GNU General Public License as published by  *
- *   the Free Software Foundation; either version 2 of the License, or     *
- *   (at your option) any later version.                                   *
- *   See also COPYING, LICENSE and WARRANTY file                           *
- *                                                                         *
- * *********************************************************************** */
-
-package org.matsim.contrib.bicycle;
+package org.matsim.contrib.bicycle; //NTUA TEAM: mistake with the name of the package - I recommend org.matsim.contrib.Lmile
 
 import org.apache.log4j.Logger;
 import org.matsim.api.core.v01.Id;
@@ -35,56 +15,53 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author dziemke
- */
 class BicycleLegScoring implements SumScoringFunction.LegScoring, SumScoringFunction.ArbitraryEventScoring{
-	private static final Logger log = Logger.getLogger( BicycleLegScoring.class ) ;
+	// NTUA TEAM: becomes EscootLegScoring - new function for other modes are developed by NTUA.
+	// NTUA TEAM: create a new class per mode
+	private static final Logger log = Logger.getLogger( BicycleLegScoring.class ) ; // 
 
-	private final CharyparNagelLegScoring delegate ;
-
-	private final double marginalUtilityOfInfrastructure_m;
-	private final double marginalUtilityOfComfort_m;
-	private final double marginalUtilityOfGradient_m_100m;
-	private final String bicycleMode;
+	private final CharyparNagelLegScoring delegate ; // default scoring function
+	private final double marginalUtilityOfPerceivedSafety_m; // beta parameter of perceived safety - different per mode
+	private double sumPerceivedSafety; // it gives sum(psafe*distance of link i) from UtilityUtils
+	// private double sumDistance;
+	private final String bicycleMode; // NTUA TEAM: change to escootMode when we will update esoot trip execution functions
 	private final Network network;
-
-	private double additionalScore = 0. ;
-
+	private double additionalScore = 0.; // this the additional score we get, set to zero per plan (not per leg !!)
+	
 	BicycleLegScoring( final ScoringParameters params, Network network, Set<String> ptModes, BicycleConfigGroup bicycleConfigGroup ) {
+		// NTUA TEAM: BicycleConfigGroup becomes LmileConfigGroup
 		delegate = new CharyparNagelLegScoring( params, network, ptModes ) ;
-
-		this.marginalUtilityOfInfrastructure_m = bicycleConfigGroup.getMarginalUtilityOfInfrastructure_m();
-		this.marginalUtilityOfComfort_m = bicycleConfigGroup.getMarginalUtilityOfComfort_m();
-		this.marginalUtilityOfGradient_m_100m = bicycleConfigGroup.getMarginalUtilityOfGradient_m_100m();
-		this.bicycleMode = bicycleConfigGroup.getBicycleMode();
-
-		this.network = network ;
-	}
+		this.marginalUtilityOfPerceivedSafety_m = bicycleConfigGroup.getMarginalUtilityOfPerceivedSafety_m();
+		this.bicycleMode = bicycleConfigGroup.getBicycleMode(); // NTUA TEAM: bicycleMode becomes escootMode
+		this.network = network ;}
 
 	private void calcLegScore( final Leg leg ) {
-
 		if ( bicycleMode.equals( leg.getMode() ) ) {
-
+			// if bicycle or escoot or walk or car, different additional score per mode....
 			if (!isSameStartAndEnd(leg)) {
-
-				NetworkRoute networkRoute = (NetworkRoute) leg.getRoute();
-
+				NetworkRoute networkRoute = (NetworkRoute) leg.getRoute(); // get route of the leg
 				List<Id<Link>> linkIds = new ArrayList<>(networkRoute.getLinkIds());
 				linkIds.add(networkRoute.getEndLinkId());
-
-				// Iterate over all links of the route
+				sumPerceivedSafety = 0.; // set of sumPerceivedSafety equal to zero before iterating of links 
+				// sumDistance = 0. ; // set of sumDistance equal to zero before iterating links
+				// Iterate over all links of the route (leg)...
 				for (Id<Link> linkId : linkIds) {
+					Link link = network.getLinks().get(linkId);
+					double distance = link.getLength(); // this is the length of link i
 					double scoreOnLink = BicycleUtilityUtils.computeLinkBasedScore(network.getLinks().get(linkId),
-							marginalUtilityOfComfort_m, marginalUtilityOfInfrastructure_m, marginalUtilityOfGradient_m_100m);
-					// LOG.warn("----- link = " + linkId + " -- scoreOnLink = " + scoreOnLink);
-					additionalScore += scoreOnLink;
+							marginalUtilityOfPerceivedSafety_m); // NTUA TEAM: definitely BicycleUtilityUtils is not necessary for this case
+				 // sumDistance += distance; // estimate the total distance of the leg
+					sumPerceivedSafety += scoreOnLink; // estimate the total psafe * distance of the leg
 				}
+//              additionalScore += marginalUtilityOfPerceivedSafety_m*(sumPerceivedSafety/ sumDistance); // weighted mean with utils unit
+				additionalScore += marginalUtilityOfPerceivedSafety_m * sumPerceivedSafety; // with sum.... with real unit
+//				System.out.println(sumPerceivedSafety/ sumDistance);
+//				System.out.println(additionalScore);
+				// at the end of the iteration of links, add the additional score to the existing one, so that the additional score
+				// of the plan can be calculated.
 			}
 		}
-
 	}
-
 	private static boolean isSameStartAndEnd(Leg leg) {
 		return leg.getRoute().getStartLinkId().toString().equals(leg.getRoute().getEndLinkId().toString());
 	}
@@ -94,7 +71,7 @@ class BicycleLegScoring implements SumScoringFunction.LegScoring, SumScoringFunc
 	}
 
 	@Override public double getScore(){
-		return delegate.getScore() + this.additionalScore ;
+		return delegate.getScore() + this.additionalScore ; // add the additional score to the default score of MATSim
 	}
 
 	@Override public void handleLeg( Leg leg ){

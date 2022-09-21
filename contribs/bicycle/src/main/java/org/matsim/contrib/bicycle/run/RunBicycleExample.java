@@ -41,6 +41,7 @@ import java.util.List;
 
 /**
  * @author dziemke
+ * @ updated by P. G. Tzouras
  */
 public class RunBicycleExample {
 	private static final Logger LOG = Logger.getLogger(RunBicycleExample.class);
@@ -58,8 +59,8 @@ public class RunBicycleExample {
 			config.addModule(new BicycleConfigGroup());
 			fillConfigWithBicycleStandardValues(config);
 
-			config.network().setInputFile("network_lane.xml"); // Modify this
-			config.plans().setInputFile("population_1200.xml");
+			config.network().setInputFile("network_lane.xml"); // demand input
+			config.plans().setInputFile("population_1200.xml"); // supply input
 		} else {
 			throw new RuntimeException("More than one argument was provided. There is no procedure for this situation. Thus aborting!"
 								     + " Provide either (1) only a suitable config file or (2) no argument at all to run example with given example of resources folder.");
@@ -74,11 +75,14 @@ public class RunBicycleExample {
 		config.controler().setWriteEventsInterval(1);
 
 		BicycleConfigGroup bicycleConfigGroup = (BicycleConfigGroup) config.getModules().get(BicycleConfigGroup.GROUP_NAME);
-		bicycleConfigGroup.setMarginalUtilityOfInfrastructure_m(-0.0002);
-		bicycleConfigGroup.setMarginalUtilityOfComfort_m(-0.0002);
-		bicycleConfigGroup.setMarginalUtilityOfGradient_m_100m(-0.02);
-		bicycleConfigGroup.setMaxBicycleSpeedForRouting(4.16666666);
+//      ziemke bicycle routing params
+//		bicycleConfigGroup.setMarginalUtilityOfInfrastructure_m(-0.0002);
+//		bicycleConfigGroup.setMarginalUtilityOfComfort_m(-0.0002);
+//		bicycleConfigGroup.setMarginalUtilityOfGradient_m_100m(-0.02);
+//		bicycleConfigGroup.setMaxBicycleSpeedForRouting(4.16666666);
 
+		bicycleConfigGroup.setMarginalUtilityOfPerceivedSafety_m(1.22447);
+		
 		List<String> mainModeList = new ArrayList<>();
 		mainModeList.add("bicycle");
 		mainModeList.add(TransportMode.car);
@@ -89,10 +93,10 @@ public class RunBicycleExample {
 		config.strategy().addStrategySettings( new StrategySettings().setStrategyName("ChangeExpBeta" ).setWeight(0.8 ) );
 		config.strategy().addStrategySettings( new StrategySettings().setStrategyName("ReRoute" ).setWeight(0.2 ) );
 
-		config.planCalcScore().addActivityParams( new ActivityParams("home").setTypicalDuration(12*60*60 ) );
+		config.planCalcScore().addActivityParams( new ActivityParams("home").setTypicalDuration(8*60*60 ) );
 		config.planCalcScore().addActivityParams( new ActivityParams("work").setTypicalDuration(8*60*60 ) );
 
-		config.planCalcScore().addModeParams( new ModeParams("bicycle").setConstant(0. ).setMarginalUtilityOfDistance(-0.0004 ).setMarginalUtilityOfTraveling(-6.0 ).setMonetaryDistanceRate(0. ) );
+		config.planCalcScore().addModeParams( new ModeParams("bicycle").setConstant(0. ).setMarginalUtilityOfDistance(-0.00019).setMarginalUtilityOfTraveling(-6.0 ).setMonetaryDistanceRate(0. ) );
 
 		config.plansCalcRoute().setNetworkModes(mainModeList);
 	}

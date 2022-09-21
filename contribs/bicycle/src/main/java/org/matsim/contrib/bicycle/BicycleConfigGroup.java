@@ -24,6 +24,7 @@ import java.util.Map;
 
 /**
  * @author smetzler, dziemke
+ * @ updated by P G. Tzouras and E. Antoniou
  */
 public final class BicycleConfigGroup extends ReflectiveConfigGroup {
 	// necessary to have this public
@@ -36,7 +37,11 @@ public final class BicycleConfigGroup extends ReflectiveConfigGroup {
 	private static final String MAX_BICYCLE_SPEED_FOR_ROUTING = "maxBicycleSpeedForRouting";
 	private static final String BICYCLE_MODE = "bicycleMode";
 	private static final String MOTORIZED_INTERACTION = "motorizedInteraction";
-
+	//SCOOTER//
+	private static final String INPUT_PERCEIVED_SAFETY = "marginalUtilityOfPerceivedSafety_m";
+	private double marginalUtilityOfPerceivedSafety;
+	//////////
+	
 	private double marginalUtilityOfComfort;
 
 	@Deprecated
@@ -62,8 +67,20 @@ public final class BicycleConfigGroup extends ReflectiveConfigGroup {
 		map.put(INPUT_INFRASTRUCTURE, "marginalUtilityOfStreettype");
 		map.put(INPUT_GRADIENT, "marginalUtilityOfGradient");
 		map.put(MAX_BICYCLE_SPEED_FOR_ROUTING, "maxBicycleSpeed");
+		map.put(INPUT_PERCEIVED_SAFETY, "marginalUtilityOfPerceivedSafety");
 		return map;
 	}
+	//SCOOTER//
+	@StringSetter( INPUT_PERCEIVED_SAFETY)
+	public void setMarginalUtilityOfPerceivedSafety_m(final double value) {
+		this.marginalUtilityOfPerceivedSafety = value;
+	}
+	@StringGetter( INPUT_PERCEIVED_SAFETY )
+	public double getMarginalUtilityOfPerceivedSafety_m() {
+		return this.marginalUtilityOfPerceivedSafety;
+	}
+	//////////
+	
 	@StringSetter( INPUT_COMFORT )
 	public void setMarginalUtilityOfComfort_m(final double value) {
 		this.marginalUtilityOfComfort = value;

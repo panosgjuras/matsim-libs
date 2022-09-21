@@ -25,23 +25,33 @@ import org.matsim.api.core.v01.network.Link;
  */
 class BicycleUtilityUtils {
 	
-	static double computeLinkBasedScore( Link link, double marginalUtilityOfComfort_m,
-							 double marginalUtilityOfInfrastructure_m, double marginalUtilityOfGradient_m_100m ) {
-		String surface = (String) link.getAttributes().getAttribute(BicycleUtils.SURFACE);
+	static double computeLinkBasedScore( Link link, double marginalUtilityOfPerceivedSafety_m) {
+//		String surface = (String) link.getAttributes().getAttribute(BicycleUtils.SURFACE);
 		String type = (String) link.getAttributes().getAttribute("type");
-		String cyclewaytype = (String) link.getAttributes().getAttribute(BicycleUtils.CYCLEWAY);
+//		String cyclewaytype = (String) link.getAttributes().getAttribute(BicycleUtils.CYCLEWAY);
 
-		double distance = link.getLength();
+		// SCOOTER //
+		// Below, we retrieve the psafe attribute as integer
+		int psafe = (int)link.getAttributes().getAttribute(BicycleUtils.PERCEIVED_SAFETY);
+		// System.out.println (psafe);
 		
-		double comfortFactor = BicycleUtilityUtils.getComfortFactor(surface, type);
-		double comfortDisutility = marginalUtilityOfComfort_m * (1. - comfortFactor) * distance;
+		double distance = link.getLength(); /* this is our li ( the length of the link i ) */
 		
-		double infrastructureFactor = BicycleUtilityUtils.getInfrastructureFactor(type, cyclewaytype);
-		double infrastructureDisutility = marginalUtilityOfInfrastructure_m * (1. - infrastructureFactor) * distance;
+		// This is the psafe factor multiplied with the distance of link i
+		double score = psafe * distance;
+		// System.out.println (score);
+		return (score);
+		////////////
 		
-		double gradientFactor = BicycleUtilityUtils.getGradientFactor(link);
-		double gradientDisutility = marginalUtilityOfGradient_m_100m * gradientFactor * distance;
-		return (infrastructureDisutility + comfortDisutility + gradientDisutility);
+//		double comfortFactor = BicycleUtilityUtils.getComfortFactor(surface, type);
+//		double comfortDisutility = marginalUtilityOfComfort_m * (1. - comfortFactor) * distance;
+//		
+//		double infrastructureFactor = BicycleUtilityUtils.getInfrastructureFactor(type, cyclewaytype);
+//		double infrastructureDisutility = marginalUtilityOfInfrastructure_m * (1. - infrastructureFactor) * distance;
+//		
+//		double gradientFactor = BicycleUtilityUtils.getGradientFactor(link);
+//		double gradientDisutility = marginalUtilityOfGradient_m_100m * gradientFactor * distance;
+//		return (infrastructureDisutility + comfortDisutility + gradientDisutility);
 	}
 	
 	static double getGradientFactor( Link link ) {
