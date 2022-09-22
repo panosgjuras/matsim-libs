@@ -59,8 +59,8 @@ public class RunBicycleExample {
 			config.addModule(new BicycleConfigGroup());
 			fillConfigWithBicycleStandardValues(config);
 
-			config.network().setInputFile("network_lane.xml"); // demand input
-			config.plans().setInputFile("population_1200.xml"); // supply input
+			config.network().setInputFile("scenario3_network_equil.xml"); // supply input
+			config.plans().setInputFile("population_1200.xml"); // demand input
 		} else {
 			throw new RuntimeException("More than one argument was provided. There is no procedure for this situation. Thus aborting!"
 								     + " Provide either (1) only a suitable config file or (2) no argument at all to run example with given example of resources folder.");
@@ -81,7 +81,7 @@ public class RunBicycleExample {
 //		bicycleConfigGroup.setMarginalUtilityOfGradient_m_100m(-0.02);
 //		bicycleConfigGroup.setMaxBicycleSpeedForRouting(4.16666666);
 
-		bicycleConfigGroup.setMarginalUtilityOfPerceivedSafety_m(1.22447);
+		bicycleConfigGroup.setMarginalUtilityOfPerceivedSafety_m(2.12331);
 		
 		List<String> mainModeList = new ArrayList<>();
 		mainModeList.add("bicycle");
@@ -89,14 +89,14 @@ public class RunBicycleExample {
 
 		config.qsim().setMainModes(mainModeList);
 
-		config.strategy().setMaxAgentPlanMemorySize(5);
-		config.strategy().addStrategySettings( new StrategySettings().setStrategyName("ChangeExpBeta" ).setWeight(0.8 ) );
-		config.strategy().addStrategySettings( new StrategySettings().setStrategyName("ReRoute" ).setWeight(0.2 ) );
+		config.strategy().setMaxAgentPlanMemorySize(10);
+		config.strategy().addStrategySettings( new StrategySettings().setStrategyName("ChangeExpBeta" ).setWeight(0.6 ) );
+		config.strategy().addStrategySettings( new StrategySettings().setStrategyName("ReRoute" ).setWeight(0.4 ) );
 
 		config.planCalcScore().addActivityParams( new ActivityParams("home").setTypicalDuration(8*60*60 ) );
-		config.planCalcScore().addActivityParams( new ActivityParams("work").setTypicalDuration(8*60*60 ) );
-
-		config.planCalcScore().addModeParams( new ModeParams("bicycle").setConstant(0. ).setMarginalUtilityOfDistance(-0.00019).setMarginalUtilityOfTraveling(-6.0 ).setMonetaryDistanceRate(0. ) );
+		config.planCalcScore().addActivityParams( new ActivityParams("work").setTypicalDuration(4*60*60 ) );
+		config.planCalcScore().setPerforming_utils_hr(0.);
+		config.planCalcScore().addModeParams( new ModeParams("bicycle").setConstant(0. ).setMarginalUtilityOfDistance(-0.00082).setMarginalUtilityOfTraveling(-10.0 ).setMonetaryDistanceRate(0. ) );
 
 		config.plansCalcRoute().setNetworkModes(mainModeList);
 	}

@@ -36,6 +36,7 @@ class BicycleUtilityUtils {
 		// This is the psafe factor multiplied with the distance of link i
 		// double score = psafe * distance; 
 		double distance = link.getLength(); /* this is our li ( the length of the link i ) */
+//		double score = psafe * distance;
 		double score = psafe;
 		// System.out.println (score);
 		return (score);

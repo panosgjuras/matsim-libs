@@ -38,7 +38,7 @@ public final class BicycleUtils {
 	//SCOOTER//
 	// This is where we call the perceived safety attribute
 //	public static final String PERCEIVED_SAFETY_SCOOTER = "carpsafe";
-	public static final String PERCEIVED_SAFETY = "ebikepsafe";
+	public static final String PERCEIVED_SAFETY = "escootpsafe";
 	//////////
 	private BicycleUtils() {
 		// Don't allow to create instances of this class
