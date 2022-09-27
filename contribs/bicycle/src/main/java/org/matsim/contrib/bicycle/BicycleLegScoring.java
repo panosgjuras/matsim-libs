@@ -61,11 +61,11 @@ class BicycleLegScoring implements SumScoringFunction.LegScoring, SumScoringFunc
               additionalScore += marginalUtilityOfPerceivedSafety_m*(sumPerceivedSafety/ sumDistance); // weighted mean with utils unit
 //				additionalScore += marginalUtilityOfPerceivedSafety_m * sumPerceivedSafety; // with sum.... with real unit
 //				additionalScore += marginalUtilityOfPerceivedSafety_m * minPerceivedSafety; 
-//				System.out.println(sumPerceivedSafety/ sumDistance);
-//                System.out.println(sumPerceivedSafety);
+				System.out.println(sumPerceivedSafety/ sumDistance);
+//              System.out.println(sumPerceivedSafety);
 //				System.out.println(minPerceivedSafety);
 
-//				System.out.println(additionalScore);
+//				System.out.println(minPerceivedSafety);
 				// at the end of the iteration of links, add the additional score to the existing one, so that the additional score
 				// of the plan can be calculated.
 			}
