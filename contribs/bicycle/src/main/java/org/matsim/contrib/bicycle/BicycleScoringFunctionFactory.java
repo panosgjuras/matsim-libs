@@ -56,6 +56,7 @@ final class BicycleScoringFunctionFactory implements ScoringFunctionFactory {
 	@Override
 	public ScoringFunction createNewScoringFunction(Person person) {
 		SumScoringFunction sumScoringFunction = new SumScoringFunction();
+		
 
 		final ScoringParameters params = parameters.getScoringParameters(person);
 		sumScoringFunction.addScoringFunction(new CharyparNagelActivityScoring(params)) ;
@@ -65,6 +66,7 @@ final class BicycleScoringFunctionFactory implements ScoringFunctionFactory {
 		BicycleScoringType bicycleScoringType = bicycleConfigGroup.getBicycleScoringType();
 		
 		if (bicycleScoringType == BicycleScoringType.legBased) {
+		    
 			sumScoringFunction.addScoringFunction(new BicycleLegScoring(params, scenario.getNetwork(), scenario.getConfig().transit().getTransitModes(), bicycleConfigGroup));
 		} else if (bicycleScoringType == BicycleScoringType.linkBased) {
 			BicycleLinkScoring bicycleLinkScoring = new BicycleLinkScoring(params, scenario, bicycleConfigGroup);

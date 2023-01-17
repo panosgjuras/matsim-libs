@@ -52,6 +52,7 @@ public class RunBicycleExample {
 			LOG.info("A user-specified config.xml file was provided. Using it...");
 			config = ConfigUtils.loadConfig(args[0], new BicycleConfigGroup());
 			fillConfigWithBicycleStandardValues(config);
+		
 		} else if (args.length == 0) {
 			LOG.info("No config.xml file was provided. Using 'standard' example files given in this contrib's resources folder.");
 			// Setting the context like this works when the data is stored under "/matsim/contribs/bicycle/src/main/resources/bicycle_example"
@@ -80,13 +81,21 @@ public class RunBicycleExample {
 //		bicycleConfigGroup.setMarginalUtilityOfComfort_m(-0.0002);
 //		bicycleConfigGroup.setMarginalUtilityOfGradient_m_100m(-0.02);
 //		bicycleConfigGroup.setMaxBicycleSpeedForRouting(4.16666666);
+		
+		PsafeConfigGroup 
 
-		bicycleConfigGroup.setMarginalUtilityOfPerceivedSafety_m(2.12331);
+		bicycleConfigGroup.setMarginalUtilityOfPerceivedSafety_m(2.12331); // from bicycle config group introduce a new parameter
+		// a new variable is introduced, it is related to safety perceptions instead of infrastructure factors
 		
 		List<String> mainModeList = new ArrayList<>();
 		mainModeList.add("bicycle");
+		// mainModeList.add("ebike");
+		// mainModeList.add("escoot"); // add new modes of transport
+		// mainModeList.add("ebike");
+		
+		// mainModeList.add(TransportMode.walk);
 		mainModeList.add(TransportMode.car);
-
+		
 		config.qsim().setMainModes(mainModeList);
 
 		config.strategy().setMaxAgentPlanMemorySize(10);
